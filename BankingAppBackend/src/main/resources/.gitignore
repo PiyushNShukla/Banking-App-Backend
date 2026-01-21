@@ -1,0 +1,38 @@
+############################
+# Maven
+############################
+/target/
+*.jar
+*.war
+*.ear
+
+############################
+# Eclipse / STS
+############################
+.classpath
+.project
+.settings/
+.factorypath
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Spring Boot / Runtime
+############################
+*.pid
+
+############################
+# Local configuration & secrets
+############################
+application-local.properties
+application-local.yml
+.env
